@@ -20,6 +20,7 @@ export default function Home() {
             </code>
             .
           </li>
+          {/* TODO hello_worldの実装が必要 */}
           <li>Save and see your changes instantly.</li>
         </ol>
 
