@@ -1,5 +1,8 @@
 name: "Run TODO to Issue"
-on: [ "push" ]
+on: 
+    push:
+      branches:
+        - main
 jobs:
   build:
     runs-on: "ubuntu-latest"
@@ -7,3 +10,5 @@ jobs:
       - uses: "actions/checkout@v4"
       - name: "TODO to Issue"
         uses: "alstr/todo-to-issue-action@v5"
+        with:
+          INSERT_ISSUE_URLS: "true"
