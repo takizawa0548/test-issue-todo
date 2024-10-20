@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-// TODO: 更新するとISSUEが発生する問題　戻し
+
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -13,6 +14,22 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
+
+
+
+
+
+
+// TODO: 更新するとISSUEが発生する問題　戻し
+
+
+
+
+
+
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
